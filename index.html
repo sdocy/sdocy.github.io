@@ -1,16 +1,16 @@
 <style>
 	body {
-	    color: white;
+	    color: #cce0ff;
 	}
 	
 	.text-left {
 		float: left;
-		width: 47%;
+		width: 46%;
 	}
 	
 	.text-right {
 		float: right;
-		width: 47%;
+		width: 46%;
 	}
 	
 	.text-right-shared {
@@ -63,7 +63,11 @@
 		color: #b3d1ff;
 	}
 	
-	ul {
+	.ul-no-bullet {
+		list-style-type: none;
+	}
+	
+	.ul-star {
 		list-style-image: url('star.png');
 	}
 	
@@ -95,9 +99,9 @@
 		<p>I truly have had a life-long passion for designing software to solve all kinds of challenging problems.<br/>
 		   My professional background in Systems Programming has taught me how to approach complex, technical<br/>
 		   problems and to deliver solutions which are clean, robust and maintainable.  In my free-time, I have<br/>
-		   been exploring the capabilities of Unity with my son, who is dedicated to becoming a great video game<br/>
-		   developer, and learning how to develop mobile apps on Android with Java and XML.  Working with Unity<br/>
-		   and Android, I get to relax a little and let my creativity and inquisitive nature take over and guide what I create.<br/><br/><br/></p>
+		   been exploring the capabilities of Unity and learning how to develop mobile apps on Android with Java<br/>
+		   and XML.  Working with Unity and Android, I get to relax a little and let my creativity and inquisitive<br/>
+		   nature take over and guide what I create.<br/><br/><br/></p>
 	</div>
 	
 	<div class="center">
@@ -116,22 +120,39 @@
 	
 		<h4 class="center"><br/><a href="https://unity3d.com/" target="_blank"><img class="tiny-image" src="unity.png"></a></h4>
 		
-		<ul>
-			<li>Developed fully functional, feature-rich Blackjack game.  Plans to eventually morph game into hybrid Blackjack / trading card game.<br/>
-				<a class="indentleft indentright" href="https://sdocy.github.io/blackjack/" target="_blank">Project Webpage</a>
-				<a class="indentleft" href="https://github.com/sdocy/blackjack" target="_blank">Project Repo</a><br/><br/>
-			</li>
-			<li>Implemented battle simulator to investigate game object interaction and to push limits of game scalability.  Current implementation supports
-				4000 autonomous units with each unit controlling its own movement, targeting and attacking.<br/>
-				<a class="indentleft indentright" href="https://sdocy.github.io/dark-kingdoms/" target="_blank">Project Webpage</a>
-				<a class="indentleft" href="https://github.com/sdocy/dark-kingdoms" target="_blank">Project Repo</a><br/><br/>
-			</li>
-			<li>Designing UI driven game in which a young Orc captain tries to maintain an outpost on a remote border of Mordor after Sauron's defeat.<br/><br/></li>
-			<li>Developed proof of concept for graphical tutorial for Computer Science data structures and algorithms.  Algorithm execution and data structure
-				manipulation are graphically displayed, with support for continuous and step-by-step execution.<br/>
-				<a class="indentleft indentright" href="https://sdocy.github.io/dataStructures/" target="_blank">Project Webpage</a>
-				<a class="indentleft" href="https://github.com/sdocy/dataStructures" target="_blank">Project Repo</a><br/><br/>
-			</li>
+		<ul class="ul-no-bullet">
+			<li>Data Structures and Algorithms Tutorial</li>
+			<ul class="ul-star">
+				<li>Developed proof of concept for graphical tutorial for Computer Science data structures and algorithms.  Algorithm execution and data structure
+					manipulation are graphically displayed, with support for continuous and step-by-step execution.<br/>
+					<a class="indentleft indentright" href="https://sdocy.github.io/dataStructures/" target="_blank">Project Webpage</a>
+					<a class="indentleft" href="https://github.com/sdocy/dataStructures" target="_blank">Project Repo</a><br/><br/>
+				</li>
+			</ul>
+		
+			<li>BlackJack game</li>
+			<ul class="ul-star">
+				<li>Developed fully functional, feature-rich Blackjack game.  Plans to eventually morph game into hybrid Blackjack / trading card game.<br/>
+					<a class="indentleft indentright" href="https://sdocy.github.io/blackjack/" target="_blank">Project Webpage</a>
+					<a class="indentleft" href="https://github.com/sdocy/blackjack" target="_blank">Project Repo</a>
+					<a class="indentleft" href="https://sdocy.itch.io/" target="_blank">Play It</a><br/><br/>
+				</li>
+			</ul>
+			
+			<li>Battle Simulator</li>
+			<ul class="ul-star">
+				<li>Implemented battle simulator to investigate game object interaction and to push limits of game scalability.  Current implementation supports
+					4000 autonomous units with each unit controlling its own movement, targeting and attacking.<br/>
+					<a class="indentleft indentright" href="https://sdocy.github.io/dark-kingdoms/" target="_blank">Project Webpage</a>
+					<a class="indentleft" href="https://github.com/sdocy/dark-kingdoms" target="_blank">Project Repo</a><br/><br/>
+				</li>
+			</ul>
+				
+			<li>Gangs of Mordor</li>	
+			<ul class="ul-star">
+				<li>Designing UI driven game in which a young Orc captain tries to maintain an outpost on a remote border of Mordor after Sauron's defeat.<br/><br/>
+				</li>
+			</ul>
 		</ul>
 	</div>
 
@@ -142,25 +163,25 @@
 		   <p>Expanded my role as technical lead for Oracle Solaris Cluster product, coordinating multi-group efforts to deliver highly available storage solutions
 		      with short hiatus to research low latency remote shared memory communication prototype.</p>
 			  
-		<ul>
+		<ul class="ul-star">
 			<li>Investigated technical issues and gaps in Solaris physical to virtual migration tools and outlined Cloud migration path for customers running
-				on legacy Oracle hardware; key component in Oracle's new focus on Cloud solutions.</li>
+				on legacy Oracle hardware; key component in Oracle's new focus on Cloud solutions.<br/><br/></li>
 			<li>Returned to <a href="http://www.oracle.com/technetwork/server-storage/solaris-cluster/overview/index.html" target="_blank">Solaris Cluster</a> and immediately addressed backlog of bugs in global devices area, significantly reducing overall count, including
-				identifying and resolving 2 critical bug fixes.</li>
+				identifying and resolving 2 critical bug fixes.<br/><br/></li>
 			<li>Researched application of software-on-silicon and hypervisor technologies, providing low latency interprocess, inter-node communication.</li>
 			<ul>
 				<li>Designed and implemented Coherent Memory Interface library based on evolving specification, serving as user API for managing remote
 					shared memory.</li>
 				<li>Built event framework used to deliver asynchronous errors to CMI client applications, allowing RMA device driver to communicate intricate
-					error conditions to users.</li>
+					error conditions to users.<br/><br/></li>
 			</ul>
 			<li>Coordinated with Oracle Solaris Cluster QA and EMC engineers, investigating, defining and resolving issues related to supporting EMC VPLEX on
-				Oracle Solaris Cluster.</li>
+				Oracle Solaris Cluster.<br/><br/></li>
 			<li>Served as C-team tech lead, driving delivery of technical content for Oracle Solaris Cluster's 3.3u2 and 4.1 releases, including integration
-				of new features and meeting Solaris Cluster's aggressive quality requirements.</li>
+				of new features and meeting Solaris Cluster's aggressive quality requirements.<br/><br/></li>
+				
+			<p><br/><br/></p>
 		</ul>
-		
-		<p><br/><br/></p>
 	</div>
 
 	<div class="text-left indentleft">
@@ -170,18 +191,20 @@
 		    <img class="image-left" style="border:3px dotted white" src="GrowWithGoogleDeveloperChallengeScholarship.png">
 		</a>
 		
-		<ul class="text-right-shared">
+		<ul class="text-right-shared ul-no-bullet">
 			<li>Awarded GrowWithGoogle scholarship for <a href="https://www.udacity.com/" target="_blank">Udacity</a>'s Android development course,
-				developing mobile apps with XML and Java.<br/><br/></li>
-			<li>Chosen as a Student Leader in recognition of support and assistance provided to other students.<br/><br/></li>
-			<li>Developed feature-rich quiz app for the final project, utilizing dynamic view resizing to make efficient use of limited screen size.<br/>
-				<a class="indentleft indentright" href="https://sdocy.github.io/SteveQuiz/" target="_blank">Project Webpage</a>
-				<a class="indentleft" href="https://github.com/sdocy/SteveQuiz" target="_blank">Project Repo</a><br/><br/>
+			    developing mobile apps with XML and Java.
 			</li>
-			<li>Completed course early and continued to learn by porting a BlackJack game I had developed with Unity and C# to Android using XML and Java.</li>
-		</ul>
 			
-		
+			<ul class="ul-star">
+				<li>Chosen as a Student Leader in recognition of support and assistance provided to other students.<br/><br/></li>
+				<li>Developed feature-rich quiz app for the final project, utilizing dynamic view resizing to make efficient use of limited screen size.<br/>
+					<a class="indentleft indentright" href="https://sdocy.github.io/SteveQuiz/" target="_blank">Project Webpage</a>
+					<a class="indentleft" href="https://github.com/sdocy/SteveQuiz" target="_blank">Project Repo</a><br/><br/>
+				</li>
+				<li>Completed course early and continued to learn by porting a BlackJack game I had developed with Unity and C# to Android using XML and Java.</li>
+			</ul>
+		</ul>
 	</div>
 	
 	<div class="text-right indentleft indentright">
@@ -190,25 +213,25 @@
 		      storage-related technologies. Designed and implemented features and enhancements to meet product requirements. Worked with Quality Assurance
 		      debugging and addressing code defects. Provided technical input to product publications team delivering user documentation for new features.</p>
 			  
-		<ul>
+		<ul class="ul-star">
 			<li>Led team which defined Sun Cluster requirements for Network Attached Storage and worked closely with internal (Oracle ZFSSA) and external
-				(NetApp) storage teams, delivering support for new NAS products; solutions consistently requested by customers.</li>
+				(NetApp) storage teams, delivering support for new NAS products; solutions consistently requested by customers.<br/><br/></li>
 			<li>Designed extensible Network Attached Storage failure fencing framework, allowing support for new NAS devices to be implemented with minimal
-				development effort.</li>
+				development effort.<br/><br/></li>
 			<li>Delivered support for storage replication technology, key component in Sun Cluster’s Disaster Recovery Solutions through collaboration with
-				EMC and Hitachi engineering teams.</li>
+				EMC and Hitachi engineering teams.<br/><br/></li>
 			<li>Authored Sun Cluster's multi-pathing failure fencing specification, allowing storage partners to deliver support for multi-pathing device
-				drivers (Solaris MPxIO, Veritas DMP, EMC PowerPath); key technology for improving storage device fault tolerance.</li>
+				drivers (Solaris MPxIO, Veritas DMP, EMC PowerPath); key technology for improving storage device fault tolerance.<br/><br/></li>
 			<li>Improved availability of Sun Cluster by implementing support for Sun's Dynamic Reconfiguration framework, allowing I/O boards and Kernel
-				Cage Memory to be configured on live cluster systems.</li>
+				Cage Memory to be configured on live cluster systems.<br/><br/></li>
 			<li>Designed Sun Cluster 3.0's failure fencing support, utilizing SPC-3 Persistent Group Reservations, offering greater reliability and storage
-				configuration flexibility than fencing offered by Sun Cluster 2.2.</li>
-			<li>Implemented support for Veritas Volume Manager, allowing Sun Cluster 3.0 product to aggressively compete with Veritas Cluster Server.</li>
+				configuration flexibility than fencing offered by Sun Cluster 2.2.<br/><br/></li>
+			<li>Implemented support for Veritas Volume Manager, allowing Sun Cluster 3.0 product to aggressively compete with Veritas Cluster Server.<br/><br/></li>
 		</ul>
 	</div>
 	
 	<div class="text-left center">
-		    <p><br/><br/>Member <a href="http://pigsquad.com/" target="_blank">Portland Indie Game Squad</a><br/><br/>
+		    <p><br/><br/><br/><br/><br/><br/>Member <a href="http://pigsquad.com/" target="_blank">Portland Indie Game Squad</a><br/><br/>
 			   Member <a href="https://www.meetup.com/UnityPDX/" target="_blank">UnityPDX</a><br/><br/>
 			   Mentor Hillsboro High School Game Programming Club</p>
 	</div>
