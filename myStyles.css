@@ -13,6 +13,18 @@ body {
 	width: 46%;
 }
 
+.text-block {
+	display: inline-block;
+	vertical-align : bottom;
+	width: 23%;
+}
+
+.center-text-block {
+	display: inline-block;
+	vertical-align : bottom;
+	width: 50%;
+}
+
 .text-right-shared {
 	float: right;
 	width: 75%;
