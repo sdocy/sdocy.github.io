@@ -4,7 +4,8 @@ body {
 }
 
 .text-left {
-	float: left;
+	display: inline-block;
+	vertical-align : top;
 	width: 46%;
 }
 
@@ -25,13 +26,8 @@ body {
 	width: 50%;
 }
 
-.text-right-shared {
+.image-right {
 	float: right;
-	width: 75%;
-}
-
-.image-left {
-	float: left;
 	width: 15%;
 }
 
