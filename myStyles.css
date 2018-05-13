@@ -27,6 +27,7 @@ body {
 }
 
 .image-right {
+	display: block;
 	float: right;
 	width: 15%;
 }
